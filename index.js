@@ -43,3 +43,10 @@ lass SmallestIntegerFinder {
     return Math.min(...args)
   }
 }
+
+
+//4. 
+
+var Filter = function(value){
+return parseInt(value.split('').filter((a) => !isNaN(parseInt(a))).join(''));
+}
